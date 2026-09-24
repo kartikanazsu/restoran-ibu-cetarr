@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Daftar Menu Restoran Ibu Cetar</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #EAF4FF;
+        }
+
+        nav {
+            background-color: #1565C0;
+            overflow: hidden;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #42A5F5;
+            border-radius: 5px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1565C0;
+        }
+
+        h2 {
+            color: #1976D2;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #2196F3;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .menu {
+            background-color: white;
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 8px;
+            width: 70%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu:hover {
+            background-color: #E3F2FD;
+        }
+
+        ol, ul {
+            text-align: left;
+            line-height: 1.8;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #1565C0;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MENU NAVIGASI -->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#menu">Menu</a>
+        <a href="#pemesanan">Cara Pemesanan</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!-- BERANDA -->
+    <div class="container" id="beranda">
+
+        <h1>RESTORAN IBU CETAR</h1>
+
+        <p>
+            Selamat datang di Restoran Ibu Cetar! Kami menyediakan berbagai
+            makanan dan minuman cetar dengan cita rasa mantap jiwa dan harga
+            murah gila. Cocok untuk lo yang mendang mending, MENDING MAKAN!!
+        </p>
+
+        <video width="480" controls>
+            <source src="Tampilan Menu.mp4" type="video/mp4">
+            Browser kamu tidak mendukung tag video.
+        </video>
+
+        <h2>Selamat Menikmati!</h2>
+
+        <p>
+            Silakan lihat berbagai menu yang tersedia dan pilih makanan
+            sesuai dengan selera kamu.
+        </p>
+
+    </div>
+
+    <!-- DAFTAR MENU -->
+    <div class="container" id="menu">
+
+        <h1>Daftar Harga Menu Restoran</h1>
+
+        <h2>Menu Makanan</h2>
+
+        <div class="menu">
+            <h3>Nasi Goreng Spesial</h3>
+            <p>&#36;1.10 (Rp 18.000)</p>
+        </div>
+
+        <div class="menu">
+            <h3>Ayam Geprek</h3>
+            <p>&#36;1.22 (Rp 20.000)</p>
+        </div>
+
+        <div class="menu">
+            <h3>Mie Goreng</h3>
+            <p>&#36;0.92 (Rp 15.000)</p>
+        </div>
+
+        <div class="menu">
+            <h3>Ikan Bakar</h3>
+            <p>&#36;1.52 (Rp 25.000)</p>
+        </div>
+
+        <div class="menu">
+            <h3>Soto Ayam</h3>
+            <p>&#36;1.22 (Rp 20.000)</p>
+        </div>
+
+        <h2>Menu Minuman</h2>
+
+        <div class="menu">
+            <h3>Es Teh Manis</h3>
+            <p>&#36;0.31 (Rp 5.000)</p>
+        </div>
+
+        <div class="menu">
+            <h3>Es Jeruk</h3>
+            <p>&#36;0.43 (Rp 7.000)</p>
+        </div>
+
+        <div class="menu">
+            <h3>Jus Alpukat</h3>
+            <p>&#36;0.61 (Rp 15.000)</p>
+        </div>
+
+        <div class="menu">
+            <h3>Kopi Susu</h3>
+            <p>&#36;0.73 (Rp 12.000)</p>
+        </div>
+
+        <div class="menu">
+            <h3>Es Cokelat</h3>
+            <p>&#36;0.61 (Rp 10.000)</p>
+        </div>
+
+        <!-- NESTED LIST -->
+        <h2>Kategori Menu</h2>
+
+        <p>
+            Untuk memudahkan pelanggan dalam memilih makanan, Restoran Ibu
+            Cetar menyediakan beberapa kategori menu berikut.
+        </p>
+
+        <ul>
+            <li>
+                Makanan
+                <ul>
+                    <li>Nasi Goreng Spesial</li>
+                    <li>Ayam Geprek</li>
+                    <li>Mie Goreng</li>
+                    <li>Ikan Bakar</li>
+                    <li>Soto Ayam</li>
+                </ul>
+            </li>
+
+            <li>
+                Minuman
+                <ul>
+                    <li>Es Teh Manis</li>
+                    <li>Es Jeruk</li>
+                    <li>Jus Alpukat</li>
+                    <li>Kopi Susu</li>
+                    <li>Es Cokelat</li>
+                </ul>
+            </li>
+
+            <li>
+                Dessert
+                <ul>
+                    <li>Es Krim</li>
+                    <li>Puding Cokelat</li>
+                    <li>Salad Buah</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+    <!-- LANGKAH PEMESANAN -->
+    <div class="container" id="pemesanan">
+
+        <h1>Langkah-Langkah Pemesanan Makanan</h1>
+
+        <p>
+            Berikut adalah langkah-langkah yang dapat dilakukan pelanggan
+            untuk memesan makanan dan minuman di Restoran Ibu Cetar.
+        </p>
+
+        <ol>
+            <li>Pilih makanan, minuman, atau dessert yang ingin dipesan.</li>
+            <li>Catat nama menu dan jumlah pesanan.</li>
+            <li>Konfirmasi pesanan kepada pelayan.</li>
+            <li>Lakukan pembayaran sesuai dengan total harga pesanan.</li>
+            <li>Tunggu pesanan disiapkan dan disajikan.</li>
+        </ol>
+
+    </div>
+
+    <!-- TENTANG KAMI -->
+    <div class="container" id="tentang">
+
+        <h1>Tentang Restoran Ibu Cetar</h1>
+
+        <p>
+            Restoran Ibu Cetar merupakan tempat makan yang menyediakan
+            berbagai macam makanan dan minuman dengan cita rasa yang
+            mantap dan harga yang terjangkau.
+        </p>
+
+        <p>
+            Restoran ini hadir untuk memberikan makanan yang lezat,
+            pelayanan yang nyaman, dan suasana yang menyenangkan
+            bagi para pelanggan.
+        </p>
+
+        <h2>Kenapa Ibu Cetar?</h2>
+
+        <p>
+            Karena makanan di sini rasanya cetar, harganya bersahabat,
+            dan porsinya siap memadamkan rasa lapar.
+        </p>
+
+    </div>
+
+    <!-- KONTAK -->
+    <div class="container" id="kontak">
+
+        <h1>Kontak Restoran Ibu Cetar</h1>
+
+        <h2>Informasi Restoran</h2>
+
+        <p>
+            <b>Alamat:</b><br>
+            Taman Melati, Jln. Kolam-Kolam Cinta No. 10<br>
+            Tangerang Selatan
+        </p>
+
+        <p>
+            <b>Jam Operasional:</b><br>
+            Senin - Jumat: 09.00 - 21.00 WIB<br>
+            Sabtu - Minggu: 09.00 - 23.00 WIB
+        </p>
+
+        <p>
+            <b>Telepon:</b><br>
+            (021) 7788-2211
+        </p>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            <b>Terima kasih sudah berkunjung! Mampir lagi yaa.</b>
+        </p>
+
+        <p>
+            &copy; 2026 Restoran Ibu Cetar. Seluruh hak cipta dilindungi.
+        </p>
+
+    </footer>
+
+</body>
+</html>
