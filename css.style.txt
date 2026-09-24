@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+}
+
+nav {
+    background-color: #8B4513;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #D2691E;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #8B4513;
+    text-align: center;
+}
+
+h2 {
+    color: #A0522D;
+}
+
+h3 {
+    color: #D2691E;
+}
+
+p {
+    line-height: 1.6;
+}
