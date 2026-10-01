@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Daftar Menu Restoran Ibu Cetar</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #EAF4FF;
+        }
+
+        nav {
+            background-color: #1565C0;
+            overflow: hidden;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #42A5F5;
+            border-radius: 5px;
+        }
+
+        .container {
+            width: 85%;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1565C0;
+        }
+
+        h2 {
+            color: #1976D2;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #2196F3;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ol,
+        ul {
+            text-align: left;
+            line-height: 1.8;
+        }
+
+        /* TABEL MENU */
+        table {
+            width: 100%;
+            margin: 25px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid #1565C0;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #1565C0;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #E3F2FD;
+        }
+
+        table img {
+            width: 130px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #1565C0;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MENU NAVIGASI -->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#menu">Menu</a>
+        <a href="#tabel-menu">Tabel Menu</a>
+        <a href="#pemesanan">Cara Pemesanan</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+
+    <!-- HALAMAN BERANDA -->
+    <div class="container" id="beranda">
+
+        <h1>RESTORAN IBU CETAR</h1>
+
+        <p>
+            Selamat datang di Restoran Ibu Cetar! Kami menyediakan berbagai
+            makanan dan minuman cetar dengan cita rasa mantap jiwa dan harga
+            murah gila. Cocok untuk kamu si mendang mending.
+        </p>
+
+        <video width="480" controls>
+            <source src="Tampilan Menu.mp4" type="video/mp4">
+            Browser kamu tidak mendukung tag video.
+        </video>
+
+        <h2>Selamat Menikmati!</h2>
+
+        <p>
+            Silakan lihat menu makanan dan minuman yang tersedia.
+            Jangan lupa mampir lagi ke Restoran Ibu Cetar!
+        </p>
+
+    </div>
+
+
+    <!-- DAFTAR MENU -->
+    <div class="container" id="menu">
+
+        <h1>Daftar Harga Menu Restoran</h1>
+
+        <h2>Menu Makanan dan Minuman</h2>
+
+        <p>
+            Berikut adalah daftar menu makanan dan minuman yang tersedia
+            di Restoran Ibu Cetar. Pelanggan dapat melihat foto, kategori,
+            dan harga setiap menu.
+        </p>
+
+
+        <!-- TABEL MENU -->
+        <table id="tabel-menu">
+
+            <tr>
+                <th>No</th>
+                <th>Foto Menu</th>
+                <th>Nama Menu</th>
+                <th>Kategori</th>
+                <th>Harga</th>
+            </tr>
+
+
+            <!-- MAKANAN -->
+
+            <tr>
+                <td>1</td>
+                <td>
+                    <img src="NasiGorengSpesialCetar.jpg"
+                        alt="Nasi Goreng Spesial">
+                </td>
+                <td>Nasi Goreng Spesial</td>
+                <td>Makanan</td>
+                <td>&#36;1.10<br>(Rp 18.000)</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>
+                    <img src="Ayam geprek.jpg"
+                        alt="Ayam Geprek">
+                </td>
+                <td>Ayam Geprek</td>
+                <td>Makanan</td>
+                <td>&#36;1.22<br>(Rp 20.000)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>
+                    <img src="mie goreng.webp"
+                        alt="Mie Goreng">
+                </td>
+                <td>Mie Goreng</td>
+                <td>Makanan</td>
+                <td>&#36;0.92<br>(Rp 15.000)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>
+                    <img src="ikan bakar.jpg"
+                        alt="Ikan Bakar">
+                </td>
+                <td>Ikan Bakar</td>
+                <td>Makanan</td>
+                <td>&#36;1.52<br>(Rp 25.000)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>
+                    <img src="soto ayam.jpg"
+                        alt="Soto Ayam">
+                </td>
+                <td>Soto Ayam</td>
+                <td>Makanan</td>
+                <td>&#36;1.22<br>(Rp 20.000)</td>
+            </tr>
+
+
+            <!-- MINUMAN -->
+
+            <tr>
+                <td>6</td>
+                <td>
+                    <img src="es teh.jpg"
+                        alt="Es Teh Manis">
+                </td>
+                <td>Es Teh Manis</td>
+                <td>Minuman</td>
+                <td>&#36;0.31<br>(Rp 5.000)</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>
+                    <img src="es jeruk.webp"
+                        alt="Es Jeruk">
+                </td>
+                <td>Es Jeruk</td>
+                <td>Minuman</td>
+                <td>&#36;0.43<br>(Rp 7.000)</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>
+                    <img src="Jus Alpukat.jpeg"
+                        alt="Jus Alpukat">
+                </td>
+                <td>Jus Alpukat</td>
+                <td>Minuman</td>
+                <td>&#36;0.61<br>(Rp 15.000)</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>
+                    <img src="Kopi Susu.jpeg"
+                        alt="Kopi Susu">
+                </td>
+                <td>Kopi Susu</td>
+                <td>Minuman</td>
+                <td>&#36;0.73<br>(Rp 12.000)</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>
+                    <img src="Es Coklat.jpeg"
+                        alt="Es Cokelat">
+                </td>
+                <td>Es Cokelat</td>
+                <td>Minuman</td>
+                <td>&#36;0.61<br>(Rp 10.000)</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <!-- NESTED LIST -->
+    <div class="container">
+
+        <h2>Kategori Menu</h2>
+
+        <p>
+            Di Restoran Ibu Cetar, pelanggan dapat memilih menu berdasarkan
+            kategori makanan, minuman, dan dessert.
+        </p>
+
+        <ul>
+
+            <li>
+                Makanan
+                <ul>
+                    <li>Nasi Goreng Spesial</li>
+                    <li>Ayam Geprek</li>
+                    <li>Mie Goreng</li>
+                    <li>Ikan Bakar</li>
+                    <li>Soto Ayam</li>
+                </ul>
+            </li>
+
+            <li>
+                Minuman
+                <ul>
+                    <li>Es Teh Manis</li>
+                    <li>Es Jeruk</li>
+                    <li>Jus Alpukat</li>
+                    <li>Kopi Susu</li>
+                    <li>Es Cokelat</li>
+                </ul>
+            </li>
+
+            <li>
+                Dessert
+                <ul>
+                    <li>Es Krim</li>
+                    <li>Puding Cokelat</li>
+                    <li>Salad Buah</li>
+                </ul>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- LANGKAH-LANGKAH PEMESANAN -->
+    <div class="container" id="pemesanan">
+
+        <h1>Langkah-Langkah Pemesanan Makanan</h1>
+
+        <p>
+            Buat kamu si mendang mending yang mau makan di Restoran Ibu Cetar,
+            berikut langkah-langkah pemesanan makanan yang bisa dilakukan.
+        </p>
+
+        <ol>
+            <li>Pilih makanan, minuman, atau dessert yang ingin dipesan.</li>
+            <li>Catat nama menu dan jumlah pesanan.</li>
+            <li>Konfirmasi pesanan kepada pelayan.</li>
+            <li>Lakukan pembayaran sesuai dengan total harga pesanan.</li>
+            <li>Tunggu pesanan disiapkan dan disajikan.</li>
+        </ol>
+
+    </div>
+
+
+    <!-- TENTANG KAMI -->
+    <div class="container" id="tentang">
+
+        <h1>Tentang Restoran Ibu Cetar</h1>
+
+        <p>
+            Restoran Ibu Cetar merupakan tempat makan yang menyediakan
+            berbagai macam makanan dan minuman dengan cita rasa yang
+            mantap jiwa dan harga murah gila.
+        </p>
+
+        <p>
+            Restoran ini hadir untuk kaum mendang mending,
+            pelayanan yang nyaman, dan suasana yang menyenangkan
+            bagi para pelanggan.
+        </p>
+
+        <h2>Kenapa Ibu Cetar?</h2>
+
+        <p>
+            Karena ownernya cetarr
+        </p>
+
+    </div>
+
+
+    <!-- KONTAK -->
+    <div class="container" id="kontak">
+
+        <h1>Kontak Restoran Ibu Cetar</h1>
+
+        <h2>Informasi Restoran</h2>
+
+        <p>
+            <b>Alamat:</b><br>
+            Taman Melati, Jln. Kolam-Kolam Cinta No. 10<br>
+            Tangerang Selatan
+        </p>
+
+        <p>
+            <b>Jam Operasional:</b><br>
+            Senin - Jumat: 09.00 - 21.00 WIB<br>
+            Sabtu - Minggu: 09.00 - 23.00 WIB
+        </p>
+
+        <p>
+            <b>Telepon:</b><br>
+            (021) 7788-2211
+        </p>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            <b>Terima kasih sudah berkunjung! Mampir lagi yaa.</b>
+        </p>
+
+        <p>
+            &copy; 2026 Restoran Ibu Cetar. Seluruh hak cipta dilindungi.
+        </p>
+
+    </footer>
+
+</body>
+</html>
